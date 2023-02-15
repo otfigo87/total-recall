@@ -85,3 +85,24 @@ timmy.eat();
 timmy.exercise();
 timmy.exercise();
 console.log(timmy);
+
+
+class Dinner {
+    constructor(appetizer, entree, dessert){
+        this.appetizer = appetizer;
+        this.entree = entree;
+        this.dessert = dessert;
+    }
+
+}
+class Chef {
+  cookDinner(appetizer, entree, dessert) {
+    return new Dinner(appetizer, entree, dessert);
+  }
+}
+ const chef = new Chef();
+ const dinner1 = chef.cookDinner("aaa", "Fish", "ccc")
+ const dinner2 = chef.cookDinner("ddd", "Chicken", "jjj");
+ const dinner3 = chef.cookDinner("hhh", "Beef", "www");
+
+ console.log(dinner3)
