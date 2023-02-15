@@ -1,7 +1,7 @@
 
 
-// I. Variables & Data Types
-// A. Q + A
+// !I. Variables & Data Types
+// ?A. Q + A
 
 // 1. With the = symbol (assignment operator)
 // 2. By selecting the variable and typing a new value
@@ -11,7 +11,7 @@
 // 6. For my opinion I would say 60% of the time to think about and understand the problem and 40% to actually typing the code.
 
 
-// B. 
+// ? B. 
 // let firstVariable = "Hello World";
 // firstVariable = 100;
 // let secondVariable = firstVariable;
@@ -21,7 +21,7 @@
 // console.log(`Hello, my name is ${yourName}!`)
 
 
-// C. Booleans
+// ? C. Booleans
 //   const a = 4;
 //   const b = 53;
 //   const c = 57;
@@ -40,7 +40,7 @@
 //   console.log(48 == '48');
 
 
-// D. The Farm
+//? D. The Farm
 // let animal = "cow";
 // if(animal === "cow"){
 //     console.log("Mooooooo")
@@ -49,7 +49,7 @@
 // }
 
 
-// E. Driver's Ed
+//? E. Driver's Ed
 // let age = 26;
 // if (age >= 16){
 //     console.log("Here are the Keys!")
@@ -63,8 +63,8 @@
 
 
 
-// II. Loops
-// A. The Basics
+// ! II. Loops
+// ? A. The Basics
 // for (let i = 0; i <= 10; i++){
 //     console.log(i)
 // }
@@ -76,7 +76,7 @@
 // }
 
 
-// B. Get even
+// ? B. Get even
 // for (let i = 1; i < 100; i++) {
 //   if(i%2 === 0){
 //       console.log(`${i} is an even number`)
@@ -86,7 +86,7 @@
 // }
 
 
-// C. Give me Five
+// ? C. Give me Five
 // for (let i = 1; i <= 100; i++) {
 //     if (i % 5 === 0 && i % 3 === 0) {
 //         console.log(`I found a ${i}. High Five!`);
@@ -99,7 +99,7 @@
 // }
 
 
-// D. Savings account
+// ? D. Savings account
 // let bank_account = 0;
 // for( let i = 0; i <= 10; i++){
 //     bank_account += i
@@ -118,14 +118,14 @@
 
 
 
-// III. Arrays & Control Flow
+// ! III. Arrays & Control Flow
 // A. Talk about it:
 // 1. Elements.
 // 2. Yes every element has his own index.
 // 3. list of members
 
 
-// B. Easy Does It
+// ? B. Easy Does It
 
 // const quotes = [
 //   "Simplicity is the ultimate sophistication.",
@@ -134,7 +134,7 @@
 // ];
 
 
-// C. Accessing elements
+// ? C. Accessing elements
 
 // const randomThings = [1, 10, "hello", true]
 // console.log(randomThings[0])
@@ -142,7 +142,7 @@
 // console.log(randomThings);
 
 
-// D. Change values
+// ? D. Change values
 
 // const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
 // console.log(ourClass[2])
@@ -150,7 +150,7 @@
 // ourClass.push("Cloud City")
 // console.log(ourClass)
 
-// E. Mix It Up
+// ? E. Mix It Up
 
 // const myArray = [5, 10, 500, 20];
 // myArray.splice(4, 0, "Aegon", "Cloud")
@@ -162,7 +162,7 @@
 // console.log(myArray);
 //Yes the method reverse() mutates the array and returns the reference to the same array reversed
 
-// F. Biggie Smalls
+// ? F. Biggie Smalls
 // let number = 100;
 // if( number < 100){
 //     console.log("little number")
@@ -171,7 +171,7 @@
 // }
 
 
-// G. Monkey in the Middle
+// ? G. Monkey in the Middle
 
 // let number = 8;
 // if(number < 5){
@@ -183,7 +183,7 @@
 // }
 
 
-// H. What's in Your Closet?
+// ? H. What's in Your Closet?
 // const kristynsCloset = [
 //   "left shoe",
 //   "cowboy boots",
@@ -236,26 +236,26 @@
 
 
 
-// IV. Functions
-// A.
+//! IV. Functions
+//? A.
 // const printGreeting = (name) => {
 //     console.log(`Hello ${name}!`)
 // }
 // printGreeting("Adam")
 
-// B.
+//? B.
 // const printCool = (name) => {
 //     return `${name} is cool!`
 // }
 // console.log(printCool("John"))
 
-// C.
+//? C.
 // const calculateCube = (a) => {
 //     return a*a*a
 // }
 // console.log(calculateCube(5));
 
-// D.
+//? D.
 // const vowelList = ["a", "e", "i", "o", "u"]
 // const isVowel = (a) => {
 //     if (vowelList.includes(a.toLowerCase())) {
@@ -266,13 +266,13 @@
 // }
 // console.log(isVowel("A"));
 
-// E.
+//? E.
 // const getTwoLengths = (a, b) => {
 //   return [a.length, b.length];
 // }
 // console.log(getTwoLengths("Hello", "Hi"));
 
-// F.
+//? F.
 // const getMultipleLengths = (...x) => {
 //   let lengthsArray = []
 //   for (let i = 0; i < x.length; i++) {
@@ -282,7 +282,7 @@
 // }
 // console.log(getMultipleLengths("Hello", "Hi","A"));
 
-// G.
+//? G.
 // const maxOfThreeLengths = (a, b, c) => {
 //   if (a === b && b === c){
 //     return b
@@ -296,7 +296,7 @@
 // }
 // console.log(maxOfThreeLengths(6,9,1))
 
-// H.
+//? H.
 // const printLongestWord = (...arg) => {
 //   let longestWord = "";
 //     for (let i = 0; i < arg.length; i++) {
@@ -314,7 +314,7 @@
 
 
 
-// V. Objects
+//? V. Objects
 // A.
 // B.
 // C.
