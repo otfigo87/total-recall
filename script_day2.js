@@ -36,13 +36,51 @@
 // console.log(wolfy)
 
 // !Yell at the Ninja Turtles
-////////////////////////////////
+// const ninjaList = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+// let upperCaseArray = [];
+// for(const ninja of ninjaList){
+//     upperCaseArray.push(ninja.toUpperCase());
+// }
+// console.log(upperCaseArray);
 
-////////////////////////////////
 // !Methods, Revisited
-////////////////////////////////
+const favMovies = [
+  "Jaws",
+  "The Fellowship of the Ring",
+  "Howl's Moving Castle",
+  "Django Unchained",
+  "Cloud Atlas",
+  "The Usual Suspects",
+  "Toy Story",
+  "Conan the Barbarian",
+  "Titanic",
+  "Harry Potter",
+  "Fried Green Tomatoes",
+  "Volver",
+  "Oculus",
+  "Seven",
+  "Black Panther",
+  "Harry Potter",
+  "Imitation of Life",
+  "Snatch",
+  "Fast and Furious",
+];
 
-////////////////////////////////
+console.log(favMovies.indexOf("Titanic"));
+console.log(favMovies.sort());
+favMovies.pop();
+favMovies.push("Guardians of the Galaxy")
+favMovies.reverse()
+favMovies.shift()
+favMovies.unshift("Chewey")
+const myIndex = favMovies.indexOf("Django Unchained")
+favMovies.splice(myIndex,1,"Avatar")
+const halfArray = favMovies.slice(Math.floor(favMovies.length/2));
+console.log(favMovies)
+console.log(halfArray)
+console.log(halfArray.indexOf("Titanic"))
+
+
 // !Where is Waldo
 ////////////////////////////////
 
