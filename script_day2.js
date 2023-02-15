@@ -126,58 +126,58 @@
 
 
 //  !Hungry for More?
-const kristynsCloset = [
-  "left shoe",
-  "cowboy boots",
-  "right sock",
-  "Per Scholas hoodie",
-  "green pants",
-  "yellow knit hat",
-  "marshmallow peeps",
-];
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "Per Scholas hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps",
+// ];
 
 
-const thomsCloset = [
-  [
-    // These are Thom's shirts
-    "grey button-up",
-    "dark grey button-up",
-    "light blue button-up",
-    "blue button-up",
-  ],
-  [
-    // These are Thom's pants
-    "grey jeans",
-    "jeans",
-    "PJs",
-  ],
-  [
-    // Thom's accessories
-    "wool mittens",
-    "wool scarf",
-    "raybans",
-  ],
-];
+// const thomsCloset = [
+//   [
+//     // These are Thom's shirts
+//     "grey button-up",
+//     "dark grey button-up",
+//     "light blue button-up",
+//     "blue button-up",
+//   ],
+//   [
+//     // These are Thom's pants
+//     "grey jeans",
+//     "jeans",
+//     "PJs",
+//   ],
+//   [
+//     // Thom's accessories
+//     "wool mittens",
+//     "wool scarf",
+//     "raybans",
+//   ],
+// ];
 
-const kristynsShoe = kristynsCloset[0];
-kristynsCloset.shift();
-thomsCloset[2].push(kristynsShoe);
+// const kristynsShoe = kristynsCloset[0];
+// kristynsCloset.shift();
+// thomsCloset[2].push(kristynsShoe);
 
-console.log(thomsCloset)
- console.log(
-  `Thom is looking fierce in a ${thomsCloset[0][1]}, ${thomsCloset[1][1]} and ${thomsCloset[2][0]} `
-);
-console.log(
-  `Kristyn is looking nice in a ${kristynsCloset[0]}, ${kristynsCloset[2]} and ${kristynsCloset[3]} `
-);
+// console.log(thomsCloset)
+//  console.log(
+//   `Thom is looking fierce in a ${thomsCloset[0][1]}, ${thomsCloset[1][1]} and ${thomsCloset[2][0]} `
+// );
+// console.log(
+//   `Kristyn is looking nice in a ${kristynsCloset[0]}, ${kristynsCloset[2]} and ${kristynsCloset[3]} `
+// );
 
-for(item of kristynsCloset){
-    console.log(`WHIRR: now washing ${item}`)
-}
+// for(item of kristynsCloset){
+//     console.log(`WHIRR: now washing ${item}`)
+// }
 
-const shirts = thomsCloset[0]
-console.log(shirts)
-const pants = thomsCloset[1];
-console.log(pants)
-const accessories = thomsCloset[2]
-console.log(accessories)
+// const shirts = thomsCloset[0]
+// console.log(shirts)
+// const pants = thomsCloset[1];
+// console.log(pants)
+// const accessories = thomsCloset[2]
+// console.log(accessories)
