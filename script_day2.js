@@ -96,8 +96,19 @@
 
 
 // !Excited Kitten
-////////////////////////////////
-
-////////////////////////////////
+const kittyTalk = [
+"...human...why you taking pictures of me?...",
+"...the catnip made me do it...",
+"...why does the red dot always get away..."
+]
+let meow = 0;
+for(let i = 1; i <= 20; i++){
+    if(i%2 === 0){
+        meow = Math.floor(Math.random() * kittyTalk.length);
+        console.log(kittyTalk[meow])
+    }else {
+        console.log("Love me, pet me! HSSSSSSS!")
+    }
+}
 // !Find the Median
 ////////////////////////////////
