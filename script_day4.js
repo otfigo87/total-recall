@@ -1,8 +1,8 @@
 class Hamster{
-    owner = "";
-    price = 15
     constructor(name){
         this.name = name;
+        this.owner = "";
+        this.price = 15;
     }
     wheelRun(){
         console.log(`squeak squeak`)
@@ -11,6 +11,6 @@ class Hamster{
         console.log(`nibble nibble`)
     }
     getPrice(){
-        return price;
+        return this.price;
     }
 }
