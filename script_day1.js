@@ -317,14 +317,71 @@
 
 
 
-//? V. Objects
-// A.
-// B.
-// C.
-// D.
-// E.
-// F.
-// G.
+// //! V. Objects
+// //? A.
+// const user = {
+//     name: "Adam",
+//     email: "adam@gmail.com",
+//     age: "30",
+//     purchased: []
+// }
+
+// //? B.
+// user.email = "adam2023@gmail.com";
+// user.age++;
+// console.log(user)
+
+// //? C.
+// user.location = "NYC";
+// console.log(user)
+
+// //? D.
+// user.purchased.push("carbohydrates")
+// user.purchased.push("peace of mind");
+// user.purchased.push("Merino jodhpurs");
+// console.log(user.purchased[2])
+
+// //? E.
+// user.friend = {
+//     name: "Grace Hopper",
+//     age: 85,
+//     location: "Texas",
+//     purchased: []
+// }
+// console.log(user)
+// console.log(user.friend.name);
+// console.log(user.friend.location);
+// user.friend.age = 50;
+// user.friend.purchased.push("The One Ring");
+// user.friend.purchased.push("A latte");
+// console.log(user.friend.purchased[1])
+
+
+// //? F.
+// for (let i = 0; i < user.purchased.length; i++){
+//     console.log(user.purchased[i]);
+// }
+// for (let i = 0; i < user.friend.purchased.length; i++) {
+//   console.log(user.friend.purchased[i]);
+// }
+
+
+// //? G.
+// const updateUser = () => {
+//     user.age++;
+//     user.name = user.name.toUpperCase();
+// }
+// updateUser()
+// console.log(user);
+
+// const oldAndLoud = (person) => {
+//     person.name = person.name.toUpperCase();
+//     person.age++
+// }
+// oldAndLoud(user)
+// console.log(user)
+
+
 //_____________________________________________________________
 
 
