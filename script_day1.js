@@ -1,5 +1,3 @@
-
-
 // !I. Variables & Data Types
 // ?A. Q + A
 
@@ -10,8 +8,7 @@
 // 5. Pseudocode is describing the process of writing code using simple words to explain what the code should do.
 // 6. For my opinion I would say 60% of the time to think about and understand the problem and 40% to actually typing the code.
 
-
-// ? B. 
+// ? B.
 // let firstVariable = "Hello World";
 // firstVariable = 100;
 // let secondVariable = firstVariable;
@@ -19,7 +16,6 @@
 // console.log(firstVariable); //100
 // let yourName="Adam";
 // console.log(`Hello, my name is ${yourName}!`)
-
 
 // ? C. Booleans
 //   const a = 4;
@@ -39,7 +35,6 @@
 //   console.log(a * a == d); // note: the answer is a simple arithmetic equation, not something "weird"
 //   console.log(48 == '48');
 
-
 //? D. The Farm
 // let animal = "cow";
 // if(animal === "cow"){
@@ -47,7 +42,6 @@
 // }else {
 //     console.log("Hey! You're not a cow")
 // }
-
 
 //? E. Driver's Ed
 // let age = 26;
@@ -57,11 +51,6 @@
 //     console.log("Sorry, you're too young.")
 // }
 //_____________________________________________________________
-
-
-
-
-
 
 // ! II. Loops
 // ? A. The Basics
@@ -75,7 +64,6 @@
 //   console.log(i);
 // }
 
-
 // ? B. Get even
 // for (let i = 1; i < 100; i++) {
 //   if(i%2 === 0){
@@ -84,7 +72,6 @@
 //       console.log(i);
 //   }
 // }
-
 
 // ? C. Give me Five
 // for (let i = 1; i <= 100; i++) {
@@ -98,7 +85,6 @@
 //     }
 // }
 
-
 // ? D. Savings account
 // let bank_account = 0;
 // for( let i = 0; i <= 10; i++){
@@ -111,19 +97,11 @@
 // console.log(bank_account);
 //_____________________________________________________________
 
-
-
-
-
-
-
-
 // ! III. Arrays & Control Flow
 // A. Talk about it:
 // 1. Elements.
 // 2. Yes every element has his own index.
 // 3. list of members
-
 
 // ? B. Easy Does It
 
@@ -133,14 +111,12 @@
 //   "We need much less than we think we need.",
 // ];
 
-
 // ? C. Accessing elements
 
 // const randomThings = [1, 10, "hello", true]
 // console.log(randomThings[0])
 // randomThings[2] = "World";
 // console.log(randomThings);
-
 
 // ? D. Change values
 
@@ -170,7 +146,6 @@
 //     console.log("big number")
 // }
 
-
 // ? G. Monkey in the Middle
 
 // let number = 8;
@@ -181,7 +156,6 @@
 // }else {
 //      console.log("Monkey");
 // }
-
 
 // ? H. What's in Your Closet?
 // const kristynsCloset = [
@@ -226,15 +200,7 @@
 // thomsCloset[1][2] = "Footie Pajamas"
 // console.log(thomsCloset)
 
-    
-//_____________________________________________________________ 
-
-
-
-
-
-
-
+//_____________________________________________________________
 
 //! IV. Functions
 //? A.
@@ -308,23 +274,16 @@
 // }
 // console.log(printLongestWord("apple", "banana", "kiwi", "hahahaha"));
 
-
-
 // _____________________________________________________________
-
-
-
-
-
 
 // //! V. Objects
 // //? A.
-// const user = {
-//     name: "Adam",
-//     email: "adam@gmail.com",
-//     age: "30",
-//     purchased: []
-// }
+const user = {
+    name: "Adam",
+    email: "adam@gmail.com",
+    age: "30",
+    purchased: []
+}
 
 // //? B.
 // user.email = "adam2023@gmail.com";
@@ -356,7 +315,6 @@
 // user.friend.purchased.push("A latte");
 // console.log(user.friend.purchased[1])
 
-
 // //? F.
 // for (let i = 0; i < user.purchased.length; i++){
 //     console.log(user.purchased[i]);
@@ -365,59 +323,54 @@
 //   console.log(user.friend.purchased[i]);
 // }
 
-
 // //? G.
+
 // const updateUser = () => {
-//     user.age++;
-//     user.name = user.name.toUpperCase();
-// }
-// updateUser()
+//   user.age++;
+//   user.name = user.name.toUpperCase();
+// };
+// updateUser();
 // console.log(user);
 
 // const oldAndLoud = (person) => {
-//     person.name = person.name.toUpperCase();
-//     person.age++
-// }
-// oldAndLoud(user)
-// console.log(user)
+//   person.name = person.name.toUpperCase();
+//   person.age++;
+// };
 
+// oldAndLoud(user);
+// console.log(user);
 
 //_____________________________________________________________
 
-
 // !Extra
-// 1.
-const cat1 = {
-    name: "Kitty",
-    breed: "idk",
-    age: 2
-}
-console.log(cat1.age)
-console.log(cat1.breed)
+// // 1.
+// const cat1 = {
+//     name: "Kitty",
+//     breed: "idk",
+//     age: 2
+// }
+// console.log(cat1.age)
+// console.log(cat1.breed)
 
-//2
-const cat2 = {
-    name: "brezz",
-    breed: "idk",
-    age: 3
-}
+// //2
+// const cat2 = {
+//     name: "brezz",
+//     breed: "idk",
+//     age: 3
+// }
 
-//3
-const combineCats = (mama, papa) => {
-      return   {
-        name: mama.name+papa.name,
-        age: 1,
-        breed: `${mama.breed}-${papa.breed}`
-    }
-}
-console.log(combineCats(cat1, cat2));
+// //3
+// const combineCats = (mama, papa) => {
+//       return   {
+//         name: mama.name+papa.name,
+//         age: 1,
+//         breed: `${mama.breed}-${papa.breed}`
+//     }
+// }
+// console.log(combineCats(cat1, cat2));
 
-//4
-console.log(combineCats(
-  combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2)),
-  combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2))
-));
-
-
-
-
+// //4
+// console.log(combineCats(
+//   combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2)),
+//   combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2))
+// ));

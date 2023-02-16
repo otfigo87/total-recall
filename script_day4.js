@@ -87,22 +87,27 @@
 // console.log(timmy);
 
 
-// class Dinner {
-//     constructor(appetizer, entree, dessert){
-//         this.appetizer = appetizer;
-//         this.entree = entree;
-//         this.dessert = dessert;
-//     }
+class Dinner {
+    constructor(appetizer, entree, dessert){
+        this.appetizer = appetizer;
+        this.entree = entree;
+        this.dessert = dessert;
+    }
 
-// }
-// class Chef {
-//   cookDinner(appetizer, entree, dessert) {
-//     return new Dinner(appetizer, entree, dessert);
-//   }
-// }
-//  const chef = new Chef();
-//  const dinner1 = chef.cookDinner("aaa", "Fish", "ccc")
-//  const dinner2 = chef.cookDinner("ddd", "Chicken", "jjj");
-//  const dinner3 = chef.cookDinner("hhh", "Beef", "www");
+}
+class Chef {
+    constructor(dinners){
+    this.dinners = []
+    }
+   cookDinner(appetizer, entree, dessert) {
+    return new Dinner(appetizer, entree, dessert);
+  }
+}
+ const chef = new Chef();
+ const dinner1 = chef.cookDinner("aaa", "Fish", "ccc")
+ const dinner2 = chef.cookDinner("ddd", "Chicken", "jjj");
+ const dinner3 = chef.cookDinner("hhh", "Beef", "www");
+ chef.dinners.push(dinner1, dinner2, dinner3)
 
-//  console.log(dinner3)
+ console.log(dinner2)
+ console.log(chef)
